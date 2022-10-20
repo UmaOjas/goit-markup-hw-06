@@ -501,10 +501,12 @@ body {
   display: flex;
   flex-direction: column;
 }
+.form-container {
+  margin-left: 93px;
+}
 .form {
   display: flex;
   align-items: flex-end;
-  margin-left: 93px;
 }
 .form-field {
   display: flex;
