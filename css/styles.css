@@ -12,6 +12,8 @@ html {
   --shadow-text-color: rgba(255, 255, 255, 0.6);
   --icon-color: #afb1b8;
   --text-size: 14px;
+  --hover-accent-color: #188ce8;
+  --second-background-color: #2f303a;
 }
 
 a {
@@ -184,7 +186,7 @@ body {
 
 /*------------HERO------------*/
 .hero {
-  background-color: #2f303a;
+  background-color: var(--second-background-color);
   max-width: 1600px;
   margin: 0 auto;
   background-image: linear-gradient(
@@ -232,7 +234,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #188ce8;
+  background-color: var(--hover-accent-color);
 }
 /*------ОСОБЛИВОСТІ-------*/
 .text {
@@ -414,7 +416,7 @@ body {
 
 /*-------------FOOTER----------------*/
 .footer {
-  background-color: #2f303a;
+  background-color: var(--second-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -526,7 +528,7 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
   outline: none;
-  background-color: #2f303a;
+  background-color: var(--second-background-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -756,7 +758,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .modal-field {
@@ -845,7 +847,7 @@ body {
   width: 16px;
   height: 15px;
   margin-right: 7px;
-  border: 2px solid #212121;
+  border: 2px solid var(--primary-text-color);
   border-radius: 4px;
 }
 .checkbox:checked + .icon-checkbox {
@@ -893,5 +895,5 @@ body {
 }
 .modal-btn:hover,
 .modal-btn:focus {
-  background-color: #188ce8;
+  background-color: var(--hover-accent-color);
 }
